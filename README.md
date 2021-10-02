@@ -33,8 +33,8 @@ File directory:
     title           | false         |               | Movie title to search for.
     keyword         | true          |               | Movie title to search for. (will ignoring id)
     year            | false         |               | Year of release.
-    plot            | false         |               | Return short or full plot.
-    type            | false         |               | Type of result to return.
-    page            | false         |               | Page number to return
+    plot            | false         | short, full   | Return short or full plot.
+    type            | false         | movie, series, episode    | Type of result to return.
+    page            | false         | 1-100         | Page number to return
     apikey          | true          |               | Api Key to accses omdb.
 ```
